@@ -2,10 +2,6 @@
 
 AI-enabled analytics project for SaaS support and product teams. This repo simulates how a B2B SaaS company could turn raw support demand into product insights, operational triage signals, and roadmap recommendations without building a chatbot or RAG assistant.
 
-It is designed to be strong for both:
-- Data Analyst / Product Analyst roles
-- AI Product Manager / AI Product Analyst roles
-
 ## Why This Use Case Matters
 
 Support tickets are one of the richest signals in a SaaS business. They capture product friction, onboarding gaps, billing confusion, reliability issues, and feature demand long before they show up in churn or NPS dashboards. The challenge is that support data is noisy, inconsistent, and spread across messages, accounts, and usage metrics.
