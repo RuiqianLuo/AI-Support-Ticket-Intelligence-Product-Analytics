@@ -1,0 +1,23 @@
+{
+  "dashboard_tables": {
+    "executive_kpis": 1,
+    "category_monthly_trends": 120,
+    "segment_summary": 22,
+    "experiment_summary": 3,
+    "feature_request_trends": 132,
+    "monthly_metrics_summary": 15,
+    "priority_ranking": 34,
+    "top_recurring_themes": 20,
+    "recommendations": 5
+  },
+  "sql_outputs": {
+    "01_top_issue_categories_by_volume": 8,
+    "02_avg_resolution_time_by_category": 32,
+    "03_csat_by_category_and_segment": 129,
+    "04_churn_risk_ticket_rate_by_plan_tier": 3,
+    "05_arr_exposed_by_issue_theme": 34,
+    "06_feature_request_trend_analysis": 132,
+    "07_experiment_comparison_summary": 3,
+    "08_executive_kpi_summary": 1
+  }
+}

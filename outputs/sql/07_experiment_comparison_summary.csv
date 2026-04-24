@@ -1,0 +1,4 @@
+experiment_variant,ticket_count,avg_resolution_time_hours,avg_csat,escalation_rate,churn_risk_ticket_rate
+guided_onboarding,2457,18.54,3.18,0.2177,0.129
+ai_triage,2057,18.31,3.17,0.1983,0.1317
+control,2634,18.56,3.13,0.2039,0.1245

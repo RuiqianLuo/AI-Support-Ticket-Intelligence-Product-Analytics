@@ -1,0 +1,17 @@
+{
+  "random_seed": 42,
+  "history_start": "2025-01-01",
+  "history_end": "2026-03-01",
+  "n_accounts": 320,
+  "plan_distribution": {
+    "SMB": 0.55,
+    "Growth": 0.28,
+    "Enterprise": 0.17
+  },
+  "ticket_shocks": [
+    "Performance and bug issues spike from Sep-Nov 2025.",
+    "Billing confusion increases around Jan-Feb 2026 renewals.",
+    "Guided onboarding improves onboarding/access outcomes after mid-Oct 2025.",
+    "AI triage improves bug/performance/integration handling after Nov 2025."
+  ]
+}

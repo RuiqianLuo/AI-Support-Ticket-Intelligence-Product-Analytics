@@ -1,0 +1,4 @@
+check_name,result,details
+Top 10 contains at least 2 high-ARR issue themes,1,Confirms the prioritization table surfaces revenue exposure rather than raw volume alone.
+Top 10 includes at least 1 performance or integration issue,1,Sanity check for enterprise-facing high-severity issues.
+Priority score correlates positively with churn score,1,Validates that riskier issues generally rise in the ranking.

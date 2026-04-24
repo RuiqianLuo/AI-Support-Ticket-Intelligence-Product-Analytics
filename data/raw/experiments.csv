@@ -1,0 +1,4 @@
+experiment_variant,variant_description,rollout_date
+control,Business-as-usual support workflow with standard routing.,2025-07-01
+ai_triage,AI-assisted queue routing and suggested issue labels for complex tickets.,2025-11-01
+guided_onboarding,Guided onboarding checklist and in-app setup support for new admins.,2025-10-15

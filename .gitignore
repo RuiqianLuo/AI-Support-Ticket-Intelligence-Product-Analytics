@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+pytest-cache-files-*/
+.mypy_cache/
+.streamlit/secrets.toml
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.sqlite3
+*.log

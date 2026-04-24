@@ -1,0 +1,9 @@
+,access,account_management,billing,bug,feature_request,integration,onboarding,performance
+access,222,0,0,0,0,0,0,0
+account_management,0,163,0,0,0,1,0,0
+billing,0,4,290,0,0,1,0,1
+bug,0,0,0,235,0,1,0,0
+feature_request,2,0,0,0,185,1,0,2
+integration,0,0,0,0,0,113,0,22
+onboarding,0,0,0,0,0,18,285,1
+performance,0,0,0,0,0,54,0,142
