@@ -167,15 +167,18 @@ README.md
 requirements.txt
 ```
 
-## Why This Project Works For Analytics Roles
+## Why This Use Case Matters
 
-For Data Analyst / Product Analyst roles:
-- demonstrates SQL, pandas, metric design, segmentation, experiment analysis, and business recommendations
-- shows how to connect support operations data with usage and revenue signals
+Support tickets, feature requests, and product-usage signals often live in separate workflows, which makes it harder for teams to identify the highest-impact problems quickly.
 
-For AI Product / AI PM roles:
-- frames AI as a workflow and decision-support layer, not as a chatbot
-- includes evaluation, tracking, prioritization logic, launch decisions, and product documentation
+This project brings those signals together in one workflow to help teams:
+- monitor issue trends and operational pain points
+- connect support demand with account segments, usage patterns, and revenue exposure
+- classify and summarize recurring issues
+- prioritize product problems using both customer pain and business impact
+- compare experiment or workflow changes using measurable outcomes
+
+The result is a decision-support prototype for support, product, and operations teams rather than a standalone chatbot or reporting dashboard.
 
 ## Limitations
 
@@ -191,4 +194,3 @@ For AI Product / AI PM roles:
 - expand prioritization to root-cause families and roadmap capacity constraints
 - add dashboard filters for industry, tenure, and account health cohort
 - incorporate SLA breach prediction and support staffing recommendations
-
