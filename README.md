@@ -2,6 +2,8 @@
 
 AI-enabled analytics project for SaaS support and product teams. This repo simulates how a B2B SaaS company could turn raw support demand into product insights, operational triage signals, and roadmap recommendations without building a chatbot or RAG assistant.
 
+The project focuses on three linked problems: support demand classification, recurring pain detection, and product prioritization.
+
 ## Why This Use Case Matters
 
 Support tickets are one of the richest signals in a SaaS business. They capture product friction, onboarding gaps, billing confusion, reliability issues, and feature demand long before they show up in churn or NPS dashboards. The challenge is that support data is noisy, inconsistent, and spread across messages, accounts, and usage metrics.
@@ -26,12 +28,12 @@ This project turns that raw signal into a local decision-support workflow:
 ## Key Features
 
 - Realistic synthetic SaaS dataset with coherent account, ticket, usage, experiment, and renewal-risk signals
-- SQL analysis pack for executive reporting and analyst workflows
+- SQL analysis pack for executive reporting and operational review workflows
 - Local AI ticket classification into 8 support issue categories
 - AI theme detection and weekly recurring pain-point summaries
 - Explainable prioritization score combining volume, severity, CSAT drag, ARR exposure, churn risk, and feature-request pressure
 - Dashboard-ready outputs and Streamlit demo app
-- Product documentation, evaluation artifacts, and resume-ready storytelling
+- Product documentation, evaluation artifacts, and decision-ready recommendations
 
 ## Dataset Overview
 
@@ -62,7 +64,7 @@ The AI layer is fully local and explainable:
 2. Apply a lightweight TF-IDF + logistic regression classifier to predict issue category.
 3. Detect recurring ticket themes with transparent keyword rules.
 4. Score ticket urgency and issue priority using operational and business signals.
-5. Generate weekly summaries and ranked product pain points for analysts and PMs.
+5. Generate weekly summaries and ranked product pain points for product and operations teams.
 
 This project intentionally avoids chatbot UX and focuses on analytics, triage, prioritization, and decision support.
 
@@ -124,6 +126,14 @@ python scripts/run_analysis.py
 python scripts/run_evaluation.py
 ```
 
+## Demo Path
+
+For a quick review:
+- run `python scripts/run_pipeline.py`
+- launch `streamlit run app/streamlit_app.py`
+- review `docs/launch_recommendation_memo.md`
+- inspect `outputs/tables/priority_ranking.csv`
+
 ## Repo Structure
 
 ```text
@@ -162,19 +172,6 @@ tests/
 README.md
 requirements.txt
 ```
-
-## Why This Use Case Matters
-
-Support tickets, feature requests, and product-usage signals often live in separate workflows, which makes it harder for teams to identify the highest-impact problems quickly.
-
-This project brings those signals together in one workflow to help teams:
-- monitor issue trends and operational pain points
-- connect support demand with account segments, usage patterns, and revenue exposure
-- classify and summarize recurring issues
-- prioritize product problems using both customer pain and business impact
-- compare experiment or workflow changes using measurable outcomes
-
-The result is a decision-support prototype for support, product, and operations teams rather than a standalone chatbot or reporting dashboard.
 
 ## Limitations
 
